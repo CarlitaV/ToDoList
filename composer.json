@@ -1,0 +1,15 @@
+{
+    "name": "carli/to-do-list",
+    "autoload": {
+        "psr-4": {
+            "Carli\\ToDoList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlita Varela",
+            "email": "varela_carlita@live.fr"
+        }
+    ],
+    "require": {}
+}
