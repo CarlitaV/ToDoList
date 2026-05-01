@@ -2,7 +2,7 @@
     "name": "carli/to-do-list",
     "autoload": {
         "psr-4": {
-            "Carli\\ToDoList\\": "src/"
+            "src\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,7 @@
             "email": "varela_carlita@live.fr"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }

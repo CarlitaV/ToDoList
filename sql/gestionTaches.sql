@@ -1,5 +1,4 @@
-CREATE DATABASE gestion_taches;
-USE gestion_taches;
+
 
 CREATE TABLE utilisateur (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -18,7 +17,7 @@ CREATE TABLE tache (
 
     utilisateur_id INT,
 
-    CONTRAINT fk_utilisateur
+    CONSTRAINT fk_utilisateur
     FOREIGN KEY (utilisateur_id)
     REFERENCES utilisateur(id)
     ON DELETE CASCADE

@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    margin:0px;
+    padding: 20px;
+}
+
+/* TITRE */
+h1{
+    text-align: center;
+    color: #333;
+    
+}
+
+/* FORMULAIRE */
+form{
+    background: white;
+    text-align:center;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+    padding: 10px;
+    margin: 5px;
+    width : 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BOUTONS */
+button{
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border : none;
+    border-radius: 5px;
+    cursor : pointer;
+}
+button:hover{
+    background : #0056b3;
+}
+
+/* LISTE DES TACHES*/
+.task{
+    background : #f5f5f5;
+    width: 400px;
+    padding : 15px;
+    margin : 15px auto;
+    margin-bottom : 15px ; 
+    border-radius : 10px ; 
+    box-shadow : 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TITRE TACHE */
+.task h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* DESCRIPTION */
+.task p {
+    color: #666;
+}
+
+/* STATUT COULEUR */
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.status.a_faire {
+    background: #e74c3c;
+}
+
+.status.en_cours {
+    background: #f39c12;
+}
+.status.termine {
+    background: #2ecc71;
+}
+
+/* BOUTON SUPPRIMER */
+.delete-btn {
+    background: #e74c3c;
+    margin-top : 10px;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+/* MESSAGE */
+#message {
+    color: green;
+    margin-bottom: 10px;
+}
+
